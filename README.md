@@ -9,6 +9,4 @@ Portfolios of venture-based companies are inherently fraught with risk. As part 
 * The approximate headcount in the portfolio at a given time
 * My simulation helped to inform the portfolio managers in creating their strategy and setting expectations around the output of the portfolio.
 
-A [full write-up](http://winstonlarson.github.io/venture-simulation) is available in [my portfolio](http://winstonlarson.github.io).
-
 The whole simulation is run from `model.py`. You can change assumptions in that file. It generates a Looper object, which simulates thousands of Accelerator objects. Accelerators contain Portfolios, which keep track of projects in different stages (i.e. screen, evaluate, develop, accelerate) of a venture portfolio. Accelerators loop over Years, and each year projects grow, succeeding or failing. Each year and project has an expected budget and headcount.
